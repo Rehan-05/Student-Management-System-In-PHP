@@ -1,0 +1,79 @@
+*{
+  font-family: 'Dosis', sans-serif  ;
+  /*background: rgba(158,158,158 ,1);
+      color: white; */
+ border-spacing: 30px;
+}
+html {
+  scroll-behavior: smooth;
+}
+input[type="text"]{
+  height: 20px;
+  width: 150px;
+}
+textarea{
+  height: 20px;
+  width: 150px;
+}
+#td{
+			border: 1px solid black;
+			padding-left: 2px;
+			text-align: left;
+			width: 300px;
+		}
+
+input[type="submit"] {
+	font: normal 14px;
+	color: white; width: 100px;
+  height: 20px;
+	padding: 2px 0px 5px 0px;
+	border-width: 0px; border-radius: 1px;
+	background-color: #00AEE3;
+	box-shadow: 0px 0px 5px 5px #939393;
+}
+input[type="submit"]:hover{
+    background-color: red;
+}
+
+
+
+.header{
+      background-color:rgba(69,90,100 ,1);
+      font-style:oblique;
+      font-weight: bold;
+      color: white;
+      font-size:  20px;
+      width: auto;
+      height:100px;
+      padding-top: 20px;
+}
+#marquee{
+   font-size: 20px;
+   height: 15px;
+   color: white;
+   padding-top: 8px;
+   background-color: rgba(96,125,139,1);
+}
+
+.left-side{
+    top: 23%;
+    width : 15%;
+    height: 60%;
+    color: black;
+    background-color:rgba(158,158,158 ,1);
+    font-size: 30px;
+    position: fixed;
+  }
+
+.right-side{
+
+    height: 75%;
+    width: 80%;
+    font-size: 15px;
+    background-color: whitesmoke;
+    position: fixed;
+    left: 17%;
+    top: 23%;
+    color: red;
+    border: solid 1px black;
+}
